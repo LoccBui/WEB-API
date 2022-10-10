@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1b59fd1e1ea14f7698d2f2b4c237a73f" Name="Diagram1">
+        <EntityTypeShape EntityType="QLBanHangDBModel.CTHD" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBanHangDBModel.HoaDon" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBanHangDBModel.KhachHang" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBanHangDBModel.NhanVien" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBanHangDBModel.SanPham" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBanHangDBModel.User" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="QLBanHangDBModel.FK__CTHD__MaHD__164452B1" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBanHangDBModel.FK__CTHD__MaSP__173876EA" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBanHangDBModel.FK__HoaDon__MaKH__0F975522" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBanHangDBModel.FK__HoaDon__MaNV__108B795B" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
